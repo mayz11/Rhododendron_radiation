@@ -57,5 +57,5 @@ open(Fo,"| gzip -2 > $outFile") or die("$!: $outFile\n");
   }
   close(Fo);
 }
-print("Done                     \n");
+print("Done   \n");
 
